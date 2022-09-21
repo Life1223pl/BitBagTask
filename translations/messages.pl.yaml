@@ -1,0 +1,6 @@
+app:
+    colors:
+        blue: "Niebieski"
+        green: "Zielony"
+        red: "Czerwony"
+    color: "Kolor"
