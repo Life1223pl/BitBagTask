@@ -13,10 +13,15 @@ Installation
 ```bash
 
 $ cd project
+$ git init
+$ git pull <Github Project Path>
+$ create .env.local file and fill it up with your db data
 $ composer install
 $ yarn install
 $ yarn build
-$ php bin/console sylius:install
+$ php bin/console doctrine:database:create
+$ php bin/console doctrine:schema:create
+$ php bin/console sylius:fixtures:load
 $ symfony server:start
 $ open http://localhost:8000/ and http://localhost:8000/admin
 ```
