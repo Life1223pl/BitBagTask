@@ -12,9 +12,8 @@ Installation
 
 ```bash
 
+$ git clone <LINK>
 $ cd project
-$ git init
-$ git pull <Github Project Path>
 $ create .env.local file and fill it up with your db data
 $ composer install
 $ yarn install
