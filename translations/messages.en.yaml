@@ -3,4 +3,5 @@ app:
         blue: "Blue"
         green: "Green"
         red: "Red"
+        none: "None"
     color: "Color"
